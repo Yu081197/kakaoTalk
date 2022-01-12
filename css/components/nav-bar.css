@@ -1,0 +1,42 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    position: relative;
+    color: #2e363e;
+}
+.nav__chatnotification {
+    background-color: tomato;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+.nav__dotnotification {
+    background-color: tomato;
+    width: 4.6px;
+    height: 4.6px;
+    border-radius: 2.3px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 33px;
+    bottom: 27px;
+}
