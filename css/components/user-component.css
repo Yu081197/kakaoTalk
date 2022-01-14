@@ -1,13 +1,16 @@
 .user-component {
     display: flex;
 }
+.user-component {
+    justify-content: space-between;
+}
 .user-component__title {
     font-weight: 700;
     font-size: 17px;
    
 }
 
-.user-component__column {
+.user-component__column:first-child {
     display: flex;
     align-items: center;
     
@@ -27,4 +30,19 @@
     height: 80px;
     border-radius: 33px;
     margin-right: 12px;
+}
+
+.user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+.user-component__title--not-bold {
+    font-weight: 400;
+}
+
+.user-component__column:last-child {
+    align-items: center;
+    display: flex;
+    color: rgba(0, 0, 0, 0.3);
 }
