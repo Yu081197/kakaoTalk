@@ -15,28 +15,13 @@
     position: relative;
     color: #2e363e;
 }
-.nav__chatnotification {
-    background-color: tomato;
-    width: 26px;
-    height: 26px;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 500;
+.nav__notification {
     position: absolute;
     left: 20px;
     bottom: 15px;
 }
-.nav__dotnotification {
-    background-color: tomato;
-    width: 4.6px;
-    height: 4.6px;
-    border-radius: 2.3px;
-    display: flex;
-    justify-content: center;
+.nav__dot {
     position: absolute;
-    left: 33px;
-    bottom: 27px;
+    left: 32px;
+    bottom: 25px;
 }
