@@ -1,0 +1,22 @@
+.user-component__text h6 {
+    display: inline;
+}
+
+.user-component__text span {
+    display: inline-block;
+    color: red;
+}
+.circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 160px;;
+    left: 252px;;
+    pointer-events:none;
+   }
