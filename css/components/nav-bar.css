@@ -19,9 +19,23 @@
     position: absolute;
     left: 20px;
     bottom: 15px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 }
+
 .nav__dot {
     position: absolute;
     left: 32px;
     bottom: 25px;
+}
+
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100% {
+        transform: none;
+    }
 }
